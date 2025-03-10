@@ -9,4 +9,4 @@ spec:
   ports:
     - port: 3000
       targetPort: 3000
-      nodePort: 31000 # Optional: Kubernetes will choose a port if this is omitted
+      #nodePort: 31000 # Optional: Kubernetes will choose a port if this is omitted
